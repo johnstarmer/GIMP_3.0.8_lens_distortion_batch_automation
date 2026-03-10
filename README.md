@@ -1,4 +1,4 @@
-# GIMP_3.0.8_lens_distortion_batch_automation
+# GIMP_3.0.8_GoPro_lens_distortion_batch_automation
 Script to apply the GIMP 3.0.8 lens distortion filter to multiple files and save the modified files to a second folder. The current script is set to remove linear lens distortion from a GoPro Hero 12 from underwater images.
 -----
 # To tune your distortion values:

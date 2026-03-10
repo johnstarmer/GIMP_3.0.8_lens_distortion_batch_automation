@@ -7,20 +7,27 @@ If you need to modify the script to match your camera's settings, open an image 
 <img width="398" height="397" alt="LensDistortionMenu" src="https://github.com/user-attachments/assets/e2b82f4d-f164-4df9-b160-899a13307769" />
 
 # To load the script:
-Download the batch-lens-distortion.scm and run_gimp_lens_distortion.sh files to your desktop.
+Download the `batch-lens-distortion.scm` and `run_gimp_lens_distortion.sh` files to your desktop.
 
-In a terminal window run '''chmod +x ~/Desktop/run_gimp_lens_distortion.sh''' to give the script permissions to run.
+In a terminal window run 
+```
+chmod +x ~/Desktop/run_gimp_lens_distortion.sh
+```
+to give the script permissions to run.
 
 Create a D_input folder and D_output folder on your desktop.
 
 Place the GoPro image files in the D_input folder. The script will save the altered files to the D_output folder and leave the originals in the D_input folder.
 
-From your terminal run '''~/Desktop/run_gimp_lens_distortion.sh'''
+From your terminal run 
+```
+~/Desktop/run_gimp_lens_distortion.sh
+```
 
 # Output example
 You will get file processing updates that look like the following example, which processed two files:
 
-
+```
 ========================================
   GIMP 3.0 Batch Lens Distortion
 ========================================
@@ -53,4 +60,4 @@ batch command executed successfully
   Done. 2 file(s) processed.
   Output folder: /Users/johnstarmer/Desktop/D_output
 ========================================
-
+```

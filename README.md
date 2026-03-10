@@ -20,7 +20,7 @@ From your terminal run '''~/Desktop/run_gimp_lens_distortion.sh'''
 # Output example
 You will get file processing updates that look like the following example, which processed two files:
 
-'''
+
 ========================================
   GIMP 3.0 Batch Lens Distortion
 ========================================
@@ -53,5 +53,4 @@ batch command executed successfully
   Done. 2 file(s) processed.
   Output folder: /Users/johnstarmer/Desktop/D_output
 ========================================
-'''
 
